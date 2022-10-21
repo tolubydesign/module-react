@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "rollup": "rollup -c --bundleConfigAsCjs",
     "rollup2": "rollup main.js --file bundle.js --format cjs",
-    "alternative": "rollup --config rollup.config.js --configPlugin typescript --bundleConfigAsCjs"
+    "alternative": "rollup --config rollup.config.js --configPlugin typescript --bundleConfigAsCjs",
+    "package": "rollup -c --bundleConfigAsCjs"
   },
   "author": "Tolu Adesina",
   "license": "ISC",
@@ -32,6 +33,6 @@
   ],
   "type": "module",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/tolubydesign"
+    "@tolubydesign:registry": "https://npm.pkg.github.com"
   }
 }
