@@ -1,7 +1,8 @@
 {
   "name": "@tolubydesign/module-react",
-  "version": "1.0.1-alpha",
+  "version": "0.0.4-alpha",
   "description": "React Module React project to provide components to others.",
+  "repository": "https://github.com/tolubydesign/module-react.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "rollup": "rollup -c --bundleConfigAsCjs",
@@ -33,6 +34,6 @@
   ],
   "type": "module",
   "publishConfig": {
-    "@tolubydesign:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }
