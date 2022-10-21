@@ -1,6 +1,6 @@
 {
   "name": "@tolubydesign/module-react",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha",
   "description": "React Module React project to provide components to others.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
