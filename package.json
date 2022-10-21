@@ -1,5 +1,5 @@
 {
-  "name": "module-react-project",
+  "name": "@tolubydesign/module-react",
   "version": "1.0.0",
   "description": "React Module React project to provide components to others.",
   "scripts": {
@@ -30,5 +30,8 @@
   "files": [
     "dist"
   ],
-  "type": "module"
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/tolubydesign"
+  }
 }
